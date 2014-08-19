@@ -8,6 +8,9 @@ gem 'rails', '4.1.4'
 gem 'sqlite3', group: [:development, :test]
 
 gem 'pg', group: :production
+
+# Use bootstrap for improving the look and feel of the project
+gem 'bootstrap-sass'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -32,8 +35,9 @@ gem 'spring',        group: :development
 
 gem 'rails_12factor', group: :production
 
-# Use bootstrap for improving the look and feel of the project
-gem 'bootstrap-sass'
+
+
+gem 'autoprefixer-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
