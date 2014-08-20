@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20140820021513) do
     t.integer  "amount"
     t.string   "description"
     t.string   "currency"
+    t.integer  "customer_id"
     t.string   "card"
     t.integer  "product_id"
     t.datetime "created_at"
